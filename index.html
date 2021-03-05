@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AEye</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="shortcut icon" href="http://example.com/img/favicon.ico">
+<link rel="stylesheet"  href="/static/css/index.css">
+<link rel="stylesheet"  href="/static/css/default.css"   type="text/css" media="all" />
+<link rel="stylesheet" href="/static/css/sride.css">
+
+<script src="../static/jquery-3.5.1.js"></script>
+<script src="/static/js/mix.min.js"></script>
+<script src="/static/js/sride.js"></script>
+
+
+	<script>
+	$(function() {
+	setTimeout(function(){
+		$('.start p').fadeIn(1600);
+	},700); //0.7秒後にロゴをフェードイン
+	setTimeout(function(){
+		$('.start').fadeOut(500);
+	},3500); //3.5秒後にロゴ含め背景をフェードアウト
+  });
+	</script>
+</head>
+
+<body ontouchstart="">
+	<div class="header"><a href="\">AEye</a></div>
+  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+  <label for="openSidebarMenu" class="sidebarIconToggle">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+  <div id="sidebarMenu">
+    <ul class="sidebarMenuInner">
+			<li><a href="\">Home</a></li>
+			<li><a href="\How">How to Use <span>使い方説明</span></a></li>
+      <li><a href="\TopsUp">Tops</a></li>
+      <li><a href="\JacketsUp">Jackets</a></li>
+      <li><a href="\PantsUp">Pants</a></li>
+      <li><a href="\ShoesUp">Shoes</a></li>
+      <li><a href="\CapUp">Cap</a></li>
+    </ul>
+	</div>
+	
+
+	<div id="header-wrapper">
+	<div id="header" class="container">
+	</div>
+	<div id="banner" class="container">
+		<ul id="explanation" class="actions">
+				<h1>AEye is a Fashion Search Engine</h1>
+				<h1>Find any clothes you want which you can search by images</h1>
+	　	<h2>-----アップロードした服と似た服が検索できます-----</h2><br><br>
+			<li><a href="#$" class="button"><span class="btn-inner">Select Genre</span></a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="wrapper">
+				<main class="main-content" id="$">
+					<section class="slideshow">
+						<div class="slideshow-inner">
+							<div class="slides">
+								<div class="slide is-active ">
+									<div class="slide-content">
+										<div class="caption" >
+											<div class="title">Tops</div>
+											<div class="text">
+												<p>T-shirts・Shirt・Hoodie ext...</p>
+											</div> 
+											<a href="/TopsUp" class="btn">
+												<span class="btn-inner">Go To Search</span>
+											</a>
+										</div>
+									</div>
+									<div class="image-container"> 
+										<img src="static/images/tops.webp" alt="" class="image" />
+									</div>
+								</div>
+								<div class="slide">
+									<div class="slide-content">
+										<div class="caption">
+											<div class="title">Jackets</div>
+											<div class="text">
+												<p>Down Jacket・Coat・MA-1 ext...</p>
+											</div> 
+											<a href="JacketsUp" class="btn">
+												<span class="btn-inner">Go To Search</span>
+											</a>
+										</div>
+									</div>
+									<div class="image-container">
+										<img src="static/images/jackets1.webp" alt="" class="image" />
+									</div>
+								</div>
+								<div class="slide">
+									<div class="slide-content">
+										<div class="caption">
+											<div class="title">Pants</div>
+											<div class="text">
+												<p>Denim・Shorts・Slacks ext...</p>
+											</div> 
+											<a href="PantsUp" class="btn">
+												<span class="btn-inner">Go To Search</span>
+											</a>
+										</div>
+									</div>
+									<div class="image-container">
+										<img src="static/images/pants.webp" alt="" class="image" />
+									</div>
+								</div>
+								<div class="slide">
+									<div class="slide-content">
+										<div class="caption">
+											<div class="title">Shoes</div>
+											<div class="text">
+												<p>Sneakers・Dress Shoes・Boots ext...</p>
+											</div> 
+											<a href="ShoesUp" class="btn">
+												<span class="btn-inner">Go To Search</span>
+											</a>
+										</div>
+									</div>
+									<div class="image-container">
+										<img src="static/images/shoes.webp" alt="" class="image" />
+									</div>
+								</div>
+								<div class="slide">
+									<div class="slide-content">
+										<div class="caption">
+											<div class="title"> Cap </div>
+											<div class="text">
+												<p>Cap・Beanie・Top Hat ext...</p>
+											</div> 
+											<a href="CapUp" class="btn">
+												<span class="btn-inner">Go To Search</span>
+											</a>
+										</div>
+									</div>
+									<div class="image-container"> 
+										<img src="static/images/cap.webp" alt="" class="image" />
+									</div>
+								</div>
+							</div>
+							<div class="pagination">
+								<div class="item is-active"> 
+									<span class="icon">1</span>
+								</div>
+								<div class="item">
+									<span class="icon">2</span>
+								</div>
+								<div class="item">
+									<span class="icon">3</span>
+								</div>
+								<div class="item">
+									<span class="icon">4</span>
+								</div>
+								<div class="item">
+									<span class="icon">5</span>
+								</div>
+							</div>
+							<div class="arrows">
+								<div class="arrow prev">
+									<span class="svg svg-arrow-left">
+										<svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"/> </svg>
+										<span class="alt sr-only"></span>
+									</span>
+								</div>
+								<div class="arrow next">
+									<span class="svg svg-arrow-right">
+										<svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"/> </svg>
+										<span class="alt sr-only"></span>
+									</span>
+								</div>
+							</div>
+						</div> 
+					</section>
+				</main>
+</div>
+
+<div id="welcome">
+	<div class="container">
+		<div class="title">
+			<h2>Resources</h2>
+			<span class="byline"></span>
+		</div>
+		<p>ZOZO Technologies：<a href="https://tech.zozo.com" rel="nofollow">https://tech.zozo.com</a></p><br>
+		<p>Deep Fashion：<a href="http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html"> http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html</a></p><br>
+		<p>YOLO：<a href="https://pjreddie.com/darknet/yolo/" rel="nofollow">https://pjreddie.com/darknet/yolo/</a></p><br>
+		<p>物体検出アルゴリズム YOLO：<a href="https://deepsquare.jp/2020/09/yolo/" rel="nofollow">https://deepsquare.jp/2020/09/yolo/</a></p><br><br>
+		<ul class="actions">
+
+		<div class="title">
+			<h2>Data</h2>
+			<span class="byline"></span>
+			</div>
+			<p>Deep Fashion：<a href="http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html"> http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html</a></p><br>
+			<ul class="actions">
+				<li><a href="#header-wrapper" class="button"><span class="btn-inner">Go To Top</span></a></li>
+			</ul>
+		</div>
+  </div>
+<div id="copyright" class="container">
+	<p>Copyright © 2020 Fumiya Okazaki, Haruto Daikoku and Kazuki Takahashi, All rights reserved.</p>
+</div>
+</div>
+
+<!-- 最初の画面 -->
+<div id="start" class="start">
+	<img class="sp_img" src="/static/images/runway_sp4.gif"> <!-- PC用のgif画像 -->
+	<img class="pc_img" src="/static/images/runway.gif" alt=""> <!-- スマホ用のgif画像 -->
+	<p><img src="/static/images/logo2.png" alt=""></p> <!-- AEyeのロゴ -->
+</div>
+
+</body>
+</html>
